@@ -6,9 +6,7 @@ setuptools.setup(
     author="Jacob Peter Thönes",
     author_email="jacob.thoenes@uni-rostock.de",
     description="Python packages that are useful during the work at the university of Rostock",
-    # long_description=open("README.md").read(),
-    # long_description_content_type="text/markdown",
-    # keywords="ScioSpec EIT".split(),
+    long_description=open("README.rst").read(),
     platforms="any",
     classifiers=[
         "Programming Language :: Python :: 3",

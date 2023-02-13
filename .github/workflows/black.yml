@@ -10,5 +10,5 @@ jobs:
       - uses: psf/black@stable
         with:
           options: "--check --diff"
-          src: "./sciopy"
-          version: "22.3.0"
+          src: "./jatools"
+          version: "22.3"

@@ -15,5 +15,5 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    url="https://github.com/spatialaudio/sciopy.git",
+    url="https://github.com/JacobTh98/jatools",
 )

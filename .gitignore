@@ -2,4 +2,4 @@ __pycache__/
 .build/
 dist/
 .eggs/
-sciopy.egg-info/
+jatools.egg-info/

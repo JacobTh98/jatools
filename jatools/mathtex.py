@@ -4,18 +4,15 @@ import numpy as np
 
 
 def print_matrix(A: np.ndarray, name: str) -> None:
-    """For Jupyter Lab
+    """
+    print_matrix renders a given matrix to the LaTeX matrix notation.
 
     Parameters
     ----------
     A : np.ndarray
-        matrix
+        Matrix
     name : str
-        name of the matrix
-
-    Returns
-    -------
-    None
+        Variable name
     """
     latex = r"\begin{equation*}\mathbf{%s}=\begin{pmatrix}" % (name)
     for i in range(A.shape[0]):

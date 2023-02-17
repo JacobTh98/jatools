@@ -6,18 +6,18 @@ def plot_signal(
     y: np.ndarray, x_label: str, y_label: str, x_ticks: np.ndarray = np.zeros(1)
 ) -> None:
     """
-    Plots a stem plot of the input signal
+    plot_signal _summary_
 
     Parameters
     ----------
     y : np.ndarray
-        the y- value array
+        y-value array
     x_label : str
-        label of the x-axis
+        Label of the x-axis
     y_label : str
-        label of the y-axis
-    x_ticks : np.ndarray
-        optional parameter for predetermined x-ticks
+        Label of the y-axis
+    x_ticks : np.ndarray, optional
+        Predetermined x-ticks, by default np.zeros(1)
     """
     if len(x_ticks) == 1:
         x_ticks = np.arange(len(y))

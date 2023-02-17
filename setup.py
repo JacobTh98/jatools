@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="jatools",
-    version="0.1",
+    version="0.1.1",
     author="Jacob Peter Thönes",
     author_email="jacob.thoenes@uni-rostock.de",
     description="Python packages that are useful during the work at the university of Rostock",

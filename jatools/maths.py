@@ -1,9 +1,9 @@
 import numpy as np
 
 
-def p_q_equation(a: float, b: float, c: float) -> tuple:
+def p_q_solve(a: float, b: float, c: float) -> tuple:
     """
-    p_q_equation computes the zeroes of a quadratic function.
+    p_q_solve computes the zeroes of a quadratic function.
 
     Parameters
     ----------
@@ -31,7 +31,3 @@ def p_q_equation(a: float, b: float, c: float) -> tuple:
         print("prob. complex")
 
     return nst_1, nst_2
-
-
-def add(a: float, b: float) -> float:
-    return a + b

@@ -1,6 +1,6 @@
 from .mathtex import print_matrix
 from .maths import p_q_solve
-from .plotting import plot_signal, plot_sin_cos
+from .plotting import plot_signal, plot_sin_cos, z_plane_plot
 from .decorators import logger, cache, repeat, timeit, retry, countcall, call_api
 
 __all__ = [
@@ -11,6 +11,7 @@ __all__ = [
     # plotting
     plot_signal,
     plot_sin_cos,
+    z_plane_plot,
     # decorators
     logger,
     cache,
